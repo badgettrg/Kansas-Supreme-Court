@@ -4,9 +4,25 @@
 	<title>Kansas State Supreme Court</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+.responsive-br { display: none; }
+
+@media (max-width: 700px) {
+  body { /* outline: 5px solid red */ }
+  .responsive-br { display: inline; }
+}
     .row_header_style {
-        background-color: #f9f9f9;
+        background-color: #f2f2f2; /* gray */
+        text-align: center;
+        vertical-align: middle;
+        line-height: 1.5;
+        font-weight: normal; /* Placeholder */
+        font-size: 1em;      /* Placeholder */
+    }
+    .row_sub_header_style {
+        background-color: #f2f2f2; # /* gray */
         text-align: center;
         vertical-align: middle;
         line-height: 1.5;
@@ -37,23 +53,40 @@
 <li></li>
 </ul>
 <table width = 100%>
-<tr style="font-size:large"><th>Kansas</th><th>States other<br/>than Kansas*</th></tr>
-<td colspan="2" class="row_header_style">
-Cases submitted (petitioned) to the U.S. Supreme Court for review since 2007:</td></tr>
-<tr><td class="data_cell_style">91<br/>(<a href="SupremeCourtDatabase.org - Kansas court of last resort - by outcomes - 2026-02-10.pdf">Data from SupremeCourt.gov (<b>link to local repo</b>)</a>)</td><td class="data_cell_style" style="border-left: 1px solid #d3d3d3; padding-left: 15px;">7095<br/>(<a href="SupremeCourtDatabase.org - Kansas court of last resort - by outcomes - 2026-02-10.pdf">Data from SupremeCourt.gov</a>)</td></tr>
-<td colspan="2" class="row_header_style">
-Review granted rate for petitions to the U.S. Supreme Court from State Supreme Courts:
-</td></tr>
-<tr style="line-height: 1.5; vertical-align: top;"><td align=center>11 / 91 = 12.09%</td><td class="data_cell_style" style="border-left: 1px solid #d3d3d3; padding-left: 15px;">228 / 7095 = 3.21%</td></tr>
+<tr style="font-size:large;background-color:lightgray"><th>Kansas</th><th>States other<br/>than Kansas*</th></tr>
+
+<tr class="row_header_style"><td colspan="2">
+Cases submitted (petitioned) to the U.S. Supreme Court for review <span class="responsive-br"><br/></span>since 2007:</td></tr>
 <tr>
-<td colspan="2"  class="row_header_style">
-Overturn rate (merits reversal rate) of petitions reviewed by the U.S. Supreme Court):</td></tr>
+<td class="data_cell_style" style="border-left: 1px solid #d3d3d3; padding-left: 15px;">
+  91<br/>
+    <a href="https://SupremeCourtDatabase.org">Data from SupremeCourt.gov</a>
+    <span class="responsive-br"><br/></span>
+    (<a href="SupremeCourtDatabase.org - Kansas court of last resort - by outcomes - 2026-02-10.pdf">link to local copies</a>)
+</td>
+<td class="data_cell_style" style="border-left: 1px solid #d3d3d3; padding-left: 15px;">
+  7995<br/>
+    <a href="https://SupremeCourtDatabase.org">Data from SupremeCourt.gov</a>
+    <span class="responsive-br"><br/></span>
+    (<a href="SupremeCourtDatabase.org - Kansas court of last resort - by outcomes - 2026-02-10.pdf">link to local copies</a>)
+</td>
+</tr>
+
+<tr class="row_header_style"><td colspan="2">
+Review granted rate for petitions from State Supreme Courts <span class="responsive-br"><br/></span>to the U.S. Supreme Court:</td></tr>
+<tr style="line-height: 1.5; vertical-align: top;"><td align=center>11 / 91 = 12.09%</td><td class="data_cell_style" style="border-left: 1px solid #d3d3d3; padding-left: 15px;">228 / 7095 = 3.21%</td></tr>
+
+<tr class="row_header_style"><td colspan="2">
+Overturn rate (merits reversal rate) of petitions reviewed <span class="responsive-br"><br/></span>by the U.S. Supreme Court:</td></tr>
 <tr><td class="data_cell_style">83.3%<br/>(5/6)<br/>(<a href="SupremeCourtDatabase.org - Kansas court of last resort - by outcomes - 2026-02-10.pdf">Data from SupremeCourtDatabase.org</a>)</td><td class="data_cell_style" style="border-left: 1px solid #d3d3d3; padding-left: 15px;">75.78%<br/>(97/128)<br/>(<a href="SupremeCourtDatabase.org - Kansas court of last resort - by outcomes - 2026-02-10.pdf">Data from SupremeCourtDatabase.org</a>)</td></tr>
+
 <tr><td colspan=2 align=center><br/>Overall rate of reversal (approximated):</td></tr>
 <tr><td class="data_cell_style">12.09% × 83.3% ≈ 10.1%*</td><td class="data_cell_style">3.21% × 75.78% ≈ 2.36%</td></tr>
+
 <tr><td colspan=2 align=center>Confirmed minimum rate of reversal:</td></tr>
 <tr><td class="data_cell_style">5 / 91 = 5.5%</td><td class="data_cell_style">97 / 7004 ≈ 1.4%</td></tr>
 </table>
+
 <div style="font-weight:bold">Notes:</div>
 <ol>
 <li>* Kansas's rate of 10.1% is significantly higher than the rate of 2.4% for the other 46 states analyzed; however, this is mostly due to Kansas's higher rate of being granted review to cases petitioned to the Supreme Court.</li>

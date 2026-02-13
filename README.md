@@ -1,3 +1,12 @@
-# Kansas-Supreme-Court
+# Kansas Supreme Court
 
-[Link to the analysis](https://html-preview.github.io/?url=https://github.com/badgettrg/Kansas-Supreme-Court/blob/main/index.html)
+Assessment of statements by Kansas Attorney General in his 
+[testimony to the Kansas Senate Fed & State Affairs Committee (Feb. 25, 2025)](https://kslegislature.gov/li/b2025_26/committees/ctte_s_fed_st_1/documents/testimony/20250225_03.pdf) regarding [SCR 1611 (Proposing a constitutional amendment to provide for direct election of supreme court justices and abolish the supreme court nominating commission.)](https://kslegislature.gov/li/b2025_26/measures/scr1611/)
+
+**Statements:**
+* "the poor decision making of the court has resulted in the Kansas Supreme Court having the highest reversal rate in the U.S. Supreme Court of any state" <mark>[Link to the analysis](https://html-preview.github.io/?url=https://github.com/badgettrg/Kansas-Supreme-Court/blob/main/index.html)</mark>
+* "Recent polling of Kansans by WPAi indicates that 74% prefer electing justices versus only 20% who favor the status quo."
+  * The wording to the question seen by Kansans is not provided. WPAi (WPA Intelligence) vendor record is at [OpenSecrets.org](https://www.opensecrets.org/campaign-expenditures/vendor?cycle=2022&vendor=WPA+Intelligence).
+* "Contrary to the claim of interest groups who benefit from the current system, it does not actually produce justices with greater “merit.” Empirical research indicates that the opposite is the case. Choi, Galati, and Posner measured the productivity, independence, and opinion quality of elected justices versus justices selected through the Missouri model. They found that elected judges were more productive (writing more opinions per year) and more independent (willing to differ from their colleagues). *In terms of quality (number of times cited by out-of-state courts), the systems were essentially equal*." (italics added)
+  * The abstract of the [Choi article]([url](http://ssrn.com/abstract_id=1008989)) states, "The empirical results do not show appointed judges performing at a higher level than their elected counterparts. *Appointed judges write higher quality opinions than elected judges do* (italics added), but elected judges write many more opinions, and the evidence suggests that the large quantity difference makes up for the small quality difference. In addition, elected judges do not appear less independent than appointed judges. *The results suggest that elected judges are more focused on providing service to the voters (that is, they behave like politicians), whereas appointed judges are more focused on their long-term legacy as creators of precedent (that is, they behave like professionals)* (italics added)."
+

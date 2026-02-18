@@ -1,2 +1,3 @@
 Go to the web page, http://supremecourtdatabase.org/analysis.php (warning: you may get an alert that your connection to the page is not secure; I have asked the website to correct this).
 The use the PDFs in this folder which are web pages saved from the website above to use as examples for data entry to replicate or update these results at this website.
+Then use the R code, with updated numbers if you search http://supremecourtdatabase.org/analysis.php in the future and get newer results, to calculate the merits not-affirmed rates.

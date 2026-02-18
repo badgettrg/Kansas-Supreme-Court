@@ -1,0 +1,1 @@
+To use this R code, first downlaod the PDFs from https://www.supremecourt.gov/orders/journal.aspx for the years you want to analysis. Put the PDFs in a subfolder named "journal_PDFs" that is in the folder that contains the R script you download from this website.
